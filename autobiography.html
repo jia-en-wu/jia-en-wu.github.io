@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Autobiography</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/auto.css') }}">
-    <script src="{{ url_for('static', filename='js/auto.js') }}" defer></script>
+    <link rel="stylesheet" href="css/auto.css">
+    <script src="js/auto.js" defer></script>
 </head>
 <body>
     <div class="navbar">
@@ -33,8 +33,7 @@
 
         <div class="personal-background">
             <div class="content-wrapper">
-                <img src="{{ url_for('static', filename='personal_photo.jpg') }}" width="340" height="340" alt="Personal Photo">
-                <div class="text-content">
+                    <img src="images/personal_photo.jpg" width="340" height="340" alt="Personal Photo">                <div class="text-content">
                     <p>Hi 我叫吳佳恩，我來自台灣桃園，目前就讀於長庚大學...</p>
                 </div>
             </div>
@@ -57,7 +56,8 @@
             <div class="artwork-gallery">
                 <div class="artwork" id="artwork">
                     <div class="front">
-                        <img src="{{ url_for('static', filename='artwork1.jpg') }}" width="500" height="500" alt="Artwork 1">
+                        <img src="images/artwork1.jpg" width="500" height="500" alt="Artwork 1">
+
                     </div>
                     <div class="back">
                         <p>這是我的畫畫作品，我喜歡用畫筆表達內心世界...</p>
@@ -78,7 +78,8 @@
             <div class="sports-photos">
                 <div class="sports-photo" id="sports-photo">
                     <div class="front">
-                        <img src="{{ url_for('static', filename='sports_photo1.jpg') }}" width="500" height="500" alt="Sports Photo 1">
+                        <img src="images/sports_photo1.jpg" width="500" height="500" alt="Sports Photo 1">
+
                     </div>
                     <div class="back">
                         <p>這是我打桌球的照片，我喜歡運動可以讓身心都保持活力...</p>
@@ -91,7 +92,7 @@
     
     </div>
     </div>
-    <script src="{{ url_for('static', filename='auto.js') }}" defer></script>
-
+    
+    <script src="js/auto.js" defer></script>
 </body>
 </html>
